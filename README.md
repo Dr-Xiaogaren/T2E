@@ -4,7 +4,7 @@ Collaboration is one of the most important factors in multi-robot systems. Consi
 
 ## 1. Usage
 
-We reproduced algorithms of MAGGPD, MAAC, MAPPO, and IPPO. The `./envs` subfolder contains environment implementations based on [MPE](https://github.com/openai/multiagent-particle-envs.). And the `./offpolicy` and `./onpolicy` subfolders contain the corresponding algorithms implementation.
+We designed several algorithms based on MAGGPD, MAAC, MAPPO, and IPPO. The `./envs` subfolder contains environment implementations based on [MPE](https://github.com/openai/multiagent-particle-envs.). And the `./offpolicy` and `./onpolicy` subfolders contain the corresponding algorithms implementation.
 
 ## 2. Installation & Environment
 1. Create an environment using conda
