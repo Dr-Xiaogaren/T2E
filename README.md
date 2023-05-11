@@ -1,10 +1,10 @@
-# No Where to Go: Benchmarking Multi-robot Collaboration in Target Trapping Environment
+# Nowhere to Go: Benchmarking Multi-robot Collaboration in Target Trapping Environment
 
 Collaboration is one of the most important factors in multi-robot systems. Considering certain real-world applications and to further promote its development, we propose a new benchmark to evaluate multi-robot collaboration in Target Trapping Environment (T2E). Furthermore, we present and evaluate multiple learning-based baselines in T2E, and provide insights into regimes of multi-robot collaboration. Here is the implementation. 
 
 ## 1. Usage
 
-We designed several algorithms based on MAGGPD, MAAC, MAPPO, and IPPO. The `./envs` subfolder contains environment implementations based on [MPE](https://github.com/openai/multiagent-particle-envs.). And the `./offpolicy` and `./onpolicy` subfolders contain the corresponding algorithms implementation.
+We designed several algorithms based on MADDPG, MAAC, MAPPO, and IPPO. The `./envs` subfolder contains environment implementations based on [MPE](https://github.com/openai/multiagent-particle-envs.). And the `./offpolicy` and `./onpolicy` subfolders contain the corresponding algorithms implementation.
 
 ## 2. Installation & Environment
 1. Create an environment using conda
