@@ -707,8 +707,8 @@ class Scenario(BaseScenario):
             rew += -1
         
         # stop publish
-        if agent.action.u[1]==agent.action.u[0]==0:
-            rew += -0.3
+        # if agent.action.u[1]==agent.action.u[0]==0:
+        #     rew += -0.3
 
         # punish every step
         rew += -0.4
@@ -739,8 +739,8 @@ class Scenario(BaseScenario):
             rew += -1
 
         # stop publish
-        if agent.action.u[1]==agent.action.u[0]==0:
-            rew += -0.3
+        # if agent.action.u[1]==agent.action.u[0]==0:
+        #     rew += -0.3
 
         # punish every step
         rew += -0.4
